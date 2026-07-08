@@ -29,39 +29,43 @@ Partial Class FrmMenu
         '
         'btnProcA
         '
-        Me.btnProcA.Location = New System.Drawing.Point(100, 87)
+        Me.btnProcA.Location = New System.Drawing.Point(125, 104)
+        Me.btnProcA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnProcA.Name = "btnProcA"
-        Me.btnProcA.Size = New System.Drawing.Size(244, 58)
+        Me.btnProcA.Size = New System.Drawing.Size(305, 70)
         Me.btnProcA.TabIndex = 0
         Me.btnProcA.Text = "ProcA"
         Me.btnProcA.UseVisualStyleBackColor = True
         '
         'btnProcB
         '
-        Me.btnProcB.Location = New System.Drawing.Point(97, 196)
+        Me.btnProcB.Location = New System.Drawing.Point(121, 235)
+        Me.btnProcB.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnProcB.Name = "btnProcB"
-        Me.btnProcB.Size = New System.Drawing.Size(244, 58)
+        Me.btnProcB.Size = New System.Drawing.Size(305, 70)
         Me.btnProcB.TabIndex = 1
         Me.btnProcB.Text = "ProcB"
         Me.btnProcB.UseVisualStyleBackColor = True
         '
         'btnProcC
         '
-        Me.btnProcC.Location = New System.Drawing.Point(97, 316)
+        Me.btnProcC.Location = New System.Drawing.Point(121, 379)
+        Me.btnProcC.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnProcC.Name = "btnProcC"
-        Me.btnProcC.Size = New System.Drawing.Size(244, 58)
+        Me.btnProcC.Size = New System.Drawing.Size(305, 70)
         Me.btnProcC.TabIndex = 2
         Me.btnProcC.Text = "ProcC"
         Me.btnProcC.UseVisualStyleBackColor = True
         '
         'FrmMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(439, 450)
+        Me.ClientSize = New System.Drawing.Size(549, 540)
         Me.Controls.Add(Me.btnProcC)
         Me.Controls.Add(Me.btnProcB)
         Me.Controls.Add(Me.btnProcA)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FrmMenu"
         Me.Text = "メニュー画面"
         Me.ResumeLayout(False)
