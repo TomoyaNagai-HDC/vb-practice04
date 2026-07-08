@@ -80,6 +80,22 @@
       <DependentUpon>FrmMenu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmProcA.Designer.vb">
+      <DependentUpon>FrmProcA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcB.Designer.vb">
+      <DependentUpon>FrmProcB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcC.Designer.vb">
+      <DependentUpon>FrmProcC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcC.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -100,6 +116,15 @@
   <ItemGroup>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcA.resx">
+      <DependentUpon>FrmProcA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcB.resx">
+      <DependentUpon>FrmProcB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcC.resx">
+      <DependentUpon>FrmProcC.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
